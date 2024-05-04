@@ -51,4 +51,8 @@ void addNode() {
 		if (previous != NULL)
 		{
 			previous->next = newNode;
-		
+		}
+		else
+		{
+			START = newNode;
+		}
