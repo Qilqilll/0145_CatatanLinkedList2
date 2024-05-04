@@ -29,3 +29,4 @@ void addNode() {
 			START->prev = newNode;
 		}
 		newNode->prev = NULL;
+		START = newNode;
