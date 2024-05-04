@@ -92,4 +92,4 @@ void deleteNode()
 	{
 		previous = current;
 		current = current->next;
-	
+	}
